@@ -41,6 +41,12 @@ read-timeout = "5s"
   enabled = false
   # port = 4444
   # database = ""
+  
+  [input_plugins.collectd]
+   enabled = true
+   port = 25826
+   database = "collectd"
+   typesdb = "/config/types.db"
 
 # Raft configuration
 [raft]
