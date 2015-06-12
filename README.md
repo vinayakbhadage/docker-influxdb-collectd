@@ -27,5 +27,5 @@ Expose influxDB admin UI and rest endpoint on port `8083` and `8086` in all inte
 
 Configuring collectd database for InfluxDB
 -------------------------
-Open your browse to access `localhost:8083` to configure InfluxDB. Fill the port which maps to `8086`. The default credential is `root:root`. Please change it as soon as possible. Create "collectd" database in  influxdb from admin ui.
+Open your browser to access `localhost:8083` to configure InfluxDB. Fill the port which maps to `8086`. The default credential is `root:root`. Please change it as soon as possible. Create "collectd" database in  influxdb from admin ui.
 
