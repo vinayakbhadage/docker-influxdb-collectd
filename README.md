@@ -9,7 +9,7 @@ InfluxDB image
 Usage
 -----
 
-To create the image `influxdbcollectd`, execute the following command on tutum-docker-influxdb folder:
+To create the image `influxdbcollectd`, execute the following command on docker-influxdb-collectd folder:
 
     docker build -t influxdbcollectd .
 
