@@ -1,6 +1,9 @@
+This docker images is exteded from https://registry.hub.docker.com/u/tutum/influxdb/
+
 tutum-docker-influxdb
 =====================
 InfluxDB image
+
 
 
 Usage
