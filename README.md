@@ -8,6 +8,9 @@ InfluxDB image
 
 Usage
 -----
+Clone this repository on you local machine:
+
+     git clone https://github.com/vinayakbhadage/docker-influxdb-collectd.git
 
 To create the image `influxdbcollectd`, execute the following command on docker-influxdb-collectd folder:
 
