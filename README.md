@@ -17,7 +17,7 @@ To create the image `influxdbcollectd`, execute the following command on tutum-d
 Running your InfluxDB image with collectd and udp plugin enabled
 --------------------------
 
-Expose influxDB admin UI and rest endpoint on port `8083` and `8086` in all interfaces to your container. Expose udp port 4444 for collecting the data using UDP client and udp port 25827 for collectd. Create influxdb data directory on docker host /opt/influxdb and give write permission for docker user and attach it as docker volume.
+Expose influxDB admin UI and rest endpoint on port `8083` and `8086` in all interfaces to your container. Expose udp port 4444 for collecting the data using UDP client and udp port 25827 for collectd. Create influxdb data directory on docker host '/opt/influxdb' and give write permission for docker user and attach it as docker volume.
 
     docker run -d --name influxdb -p 8086:8086 -p 8083:8083 -p 4444:4444/udp -p 25827:25827/udp -v /opt/influxdb:/data  -e UDP_DB="logdb" -e PRE_CREATE_DB="logdb" influxdbcollectd
 
