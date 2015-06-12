@@ -1,6 +1,6 @@
 This docker images is extended from https://registry.hub.docker.com/u/tutum/influxdb/
 
-tutum-docker-influxdb
+docker-influxdb-collectd
 =====================
 InfluxDB image
 
